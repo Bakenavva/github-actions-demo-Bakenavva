@@ -4,6 +4,8 @@ interface AdvertisementProps {
   price: string;
 };
 
+// Advertisement component
+
 function Advertisement(props: AdvertisementProps) {
   return (
     <div className="advertisement">
